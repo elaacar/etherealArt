@@ -1,0 +1,7 @@
+INSERT INTO products (name, description, size, price, image, category) VALUES
+('Ethereal Dreams', 'A mesmerizing blend of colors that captures the essence of dreams floating through consciousness. This piece explores the boundary between reality and imagination.', '24" x 36"', 299.99, 'img/ethereal_dreams.jpg', 'store'),
+('Digital Serenity', 'Created through digital manipulation of light and shadow, this artwork represents the peaceful moments found in our fast-paced digital world.', '18" x 24"', 199.99, 'img/digital_serenity.jpg', 'store'),
+('Abstract Harmony', 'Geometric forms dance together in perfect balance, creating a symphony of visual elements that speak to the mathematical beauty underlying all art.', '30" x 40"', 449.99, 'img/abstract_harmony.jpg', 'store'),
+('Neon Pulse', 'Electric energy flows through this vibrant composition, representing the pulse of modern life and the beauty found in urban landscapes.', '20" x 30"', 349.99, 'img/neon_pulse.jpg', 'reference'),
+('Cosmic Flow', 'Inspired by the movement of celestial bodies, this piece captures the eternal dance of cosmic forces through fluid digital brushstrokes.', '36" x 48"', 599.99, 'img/cosmic_flow.jpg', 'reference'),
+('Minimalist Echo', 'Sometimes less is more. This minimalist composition explores negative space and the power of simplicity in conveying complex emotions.', '16" x 20"', 149.99, 'img/minimalist_echo.jpg', 'reference');

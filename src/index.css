@@ -1,0 +1,82 @@
+/* stylelint-disable */
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  .delay-0 {
+    animation-delay: 0ms;
+  }
+  .delay-1 {
+    animation-delay: 200ms;
+  }
+  .delay-2 {
+    animation-delay: 400ms;
+  }
+  .delay-3 {
+    animation-delay: 600ms;
+  }
+  .delay-4 {
+    animation-delay: 800ms;
+  }
+  .delay-5 {
+    animation-delay: 1000ms;
+  }
+  .delay-6 {
+    animation-delay: 1200ms;
+  }
+  .delay-7 {
+    animation-delay: 1400ms;
+  }
+  .delay-8 {
+    animation-delay: 1600ms;
+  }
+  .delay-9 {
+    animation-delay: 1800ms;
+  }
+  .delay-10 {
+    animation-delay: 2000ms;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.stripe-test-container {
+  margin-top: 2rem;
+}

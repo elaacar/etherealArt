@@ -1,0 +1,17 @@
+ALTER TABLE products
+ADD COLUMN name TEXT;
+
+ALTER TABLE products
+ADD COLUMN description TEXT;
+
+ALTER TABLE products
+ADD COLUMN size TEXT;
+
+ALTER TABLE products
+ADD COLUMN price NUMERIC;
+
+ALTER TABLE products
+ADD COLUMN image TEXT;
+
+ALTER TABLE products
+ADD COLUMN category VARCHAR(20) DEFAULT 'store';
