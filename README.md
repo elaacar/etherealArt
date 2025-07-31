@@ -4,14 +4,14 @@ Node.js tabanlı backend üzerinden Stripe API entegrasyonu ile **gerçek zamanl
  Kullanılan Teknolojiler
 
  Frontend
-- ✅ React (TypeScript)
-- ✅ Tailwind CSS
-- ✅ Vite
+- React (TypeScript)
+- Tailwind CSS
+- Vite
 
 Backend
-- ✅ Node.js
-- ✅ Express.js
-- ✅ Stripe API (test ortamı)
+- Node.js
+- Express.js
+- Stripe API (test ortamı)
 
 Özellikler
 
